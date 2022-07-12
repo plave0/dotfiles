@@ -1,0 +1,9 @@
+#!/bin/sh
+
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+export VISUAL=nvim
+export EDITOR=$VISUAL
+
+export NVIM_CONFIG_DIR=$HOME/.config/nvim
+export NVIM_PACKAGE_DIR=$HOME/.local/share/nvim/lsp_servers
