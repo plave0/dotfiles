@@ -10,4 +10,4 @@ alias gl="git log"
 alias gcm="git commit -m "
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 alias nvimc="nvim -c 'cd $NVIM_CONFIG_DIR' $NVIM_CONFIG_DIR/init.lua"
-alias mpv="mpv --no-keepaspect-window"
+alias mpv="mpv --no-keepaspect-window --hwdec=auto"
