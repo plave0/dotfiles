@@ -7,3 +7,5 @@ export EDITOR=$VISUAL
 
 export NVIM_CONFIG_DIR=$HOME/.config/nvim
 export NVIM_PACKAGE_DIR=$HOME/.local/share/nvim/lsp_servers
+
+export LIBVA_DRIVER_NAME=iHD
